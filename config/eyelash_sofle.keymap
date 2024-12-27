@@ -52,11 +52,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4            &kp N5               &kp UP_ARROW     &kp N6     &kp N7  &kp N8     &kp N9     &kp N0     &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp F         &kp P             &kp B                &kp DOWN_ARROW   &kp J      &kp L   &kp U      &kp Y      &kp I      &kp APOSTROPHE
-&kp CAPS    &kp A      &kp R         &kp S         &kp T             &kp G                &kp LEFT_ARROW   &kp M      &kp N   &kp E      &kp I      &kp O      &kp ENTER
-&kp LSHFT   &kp Z      &kp X         &kp C         &kp D             &kp V                &kp RIGHT_ARROW  &kp K      &kp H   &kp COMMA  &kp DOT    &kp FSLH   &kp BACKSLASH
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp ENTER        &kp SPACE  &mo 1   &mo 2      &kp EQUAL  &kp MINUS
+&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4             &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8     &kp N9     &kp N0     &kp BACKSPACE
+&kp TAB     &kp Q      &kp W         &kp F         &kp P              &kp B        &kp DOWN_ARROW   &kp J      &kp L   &kp U      &kp Y      &kp I      &kp APOSTROPHE
+&kp CAPS    &kp A      &kp R         &kp S         &kp T              &kp G        &kp LEFT_ARROW   &kp M      &kp N   &kp E      &kp I      &kp O      &kp ENTER
+&kp LSHFT   &kp Z      &kp X         &kp C         &kp D              &kp V        &kp RIGHT_ARROW  &kp K      &kp H   &kp COMMA  &kp DOT    &kp FSLH   &kp BACKSLASH
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp RIGHT_BRACKET  &kp SPACE    &kp ENTER        &kp SPACE  &mo 1   &mo 2      &kp EQUAL  &kp MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
