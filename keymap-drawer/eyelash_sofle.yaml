@@ -23,10 +23,10 @@ layers:
   - $$mdi:arrow-down-bold$$
   - Y
   - U
-  - U
   - I
   - O
   - P
+  - '~'
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - layer1
-  - $$mdi:apple-finder$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - {t: '-', s: _}
   layer1:
